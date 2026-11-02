@@ -26,6 +26,7 @@ def gpu_occupancy(
     resource_sets = [
         num_block_max_thread,
         num_block_max_warp,
+        max_blocks_per_sm
     ]
 
     # number of blocks allowed given max register count allowed
