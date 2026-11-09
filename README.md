@@ -32,6 +32,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Cosine Noise Schedule | Implement the cosine noise schedule of improved DDPM in NumPy, with clipped betas and alpha_bars rebuilt from them. | https://www.tensortonic.com/problems/diffusion-l02-cosine-noise-schedule |
 | Forward Diffusion Sample | Implement the closed-form DDPM forward process that jumps a clean image straight to any noise level in one step. | https://www.tensortonic.com/problems/diffusion-l02-forward-diffusion-sample |
 | Linear Beta Schedule | Build the DDPM linear noise schedule in NumPy, returning the betas, alphas and cumulative alpha_bars for every timestep. | https://www.tensortonic.com/problems/diffusion-l02-linear-beta-schedule |
+| Noise Prediction Loss | Compute the DDPM simple training loss by noising a batch, running a toy denoiser and measuring its noise prediction error. | https://www.tensortonic.com/problems/diffusion-l04-noise-prediction-loss |
 | Implement Dot Product | Implement the dot product of equal-length numeric vectors by summing element-wise products without library shortcuts. | https://www.tensortonic.com/problems/dot-product |
 | Implement Dropout (Training Mode) | Implement training-mode dropout in NumPy with random masking and inverted scaling of retained activations. | https://www.tensortonic.com/problems/dropout-training |
 | ELU Activation | Apply the ELU activation element-wise, retaining positive inputs and exponentially transforming negative values. | https://www.tensortonic.com/problems/elu-activation |
